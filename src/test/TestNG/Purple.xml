@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Committees">
+
+    <!-- login info -->
+    <parameter name="consoleUrl" value="https://www.google.com/"/>
+
+
+    <test name="Smoke Tests">
+        <classes>
+            <class name="TestClasses.GoogleTest"/>
+        </classes>
+    </test>
+</suite>
