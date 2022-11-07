@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Committees">
+
+    <!-- login info -->
+    <parameter name="url" value="https://demoqa.com/elements"/>
+
+    <!-- user data -->
+    <parameter name="FullName" value="Matthew Christopher"/>
+    <parameter name="Email" value="matthew@mailinator.com"/>
+    <parameter name="CurrentAddress" value="123 Test Street"/>
+    <parameter name="PermanentAddress" value="123 Test Street"/>
+
+
+    <test name="Smoke Tests">
+        <classes>
+            <class name="TestClasses.ToolsQA"/>
+        </classes>
+    </test>
+</suite>
